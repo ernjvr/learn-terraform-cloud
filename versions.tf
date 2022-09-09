@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
-    organization = "hashicorp-learn"
-
-    workspaces {
-      name = "learn-terraform-cloud"
-    }
-  }
+#  cloud {
+#    organization = "ernjvr-tutorial"
+#
+#    workspaces {
+#      name = "learn-terraform-cloud"
+#    }
+#  }
 
   required_providers {
     aws = {
